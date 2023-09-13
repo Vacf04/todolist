@@ -1,0 +1,44 @@
+:root {
+  --color1: #b79693;
+  --color2: #c2ac9c;
+  --color3: #ccc9b6;
+  --color4: #eeefe1;
+  --color5: #f9f9f9;
+  --edit-button: #1A5D1A;
+  --edit-button-hover: #113d11;
+  --remove-button: #B70404;
+  --remove-button-hover: #5e0000;
+  --font-family: 'Montserrat', sans-serif;
+  --transition: all 0.32s linear;
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+.App {
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 3rem;
+  background-color: var(--color5);
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+
+h1{
+  text-align: center;
+  padding: 0.5rem 0 0.8rem 0;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 800px) {
+  
+  .App{
+    min-width: 90vw;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+}

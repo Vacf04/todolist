@@ -1,0 +1,54 @@
+.list {
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  margin: 0.8rem 0 0.8rem 0;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  transition: var(--transition);
+  word-break: break-all;
+  white-space: normal;
+}
+
+.listItem:hover {
+  background-color: var(--color4);
+}
+
+.actionButtons {
+  display: flex;
+  gap: .5rem;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--edit-button);
+  transition: var(--transition);
+}
+
+.edit:hover {
+  color: var(--edit-button-hover);
+}
+
+.remove {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--remove-button);
+  transition: var(--transition);
+}
+
+.removeDisable{
+  display: none;
+}
+
+.remove:hover {
+  color: var(--remove-button-hover);
+}
+
